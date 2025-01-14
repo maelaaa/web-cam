@@ -1,0 +1,8 @@
+Steps:
+1. se va stoca imaginea intr-o variabila(static frame) initiala a camerei, fara obiect/persoana in cadru
+2. urmatoarele frame-uri se vor compara cu primul frame, cautandu-se diferentele
+
+Transformam imaginea in alb-negru, deoarece e sufiecient pentru a detecta diferente si astfel nu va fi 
+atat de incarcata matricea pe care vom lucra
+
+streamlit run timed_camera.py
